@@ -22,6 +22,14 @@ const Index = () => {
 
   return (
     <Container centerContent maxW="container.md" height="100vh" display="flex" flexDirection="column" justifyContent="center" alignItems="center">
+      <Box width="full" height="300px" bgImage="url('/images/couple-house.jpg')" bgPosition="center" bgRepeat="no-repeat" bgSize="cover">
+        <VStack spacing={4} p={4} color="white">
+          <Heading as="h1" size="2xl">
+            Welcome to Skippatopplån
+          </Heading>
+          <Text fontSize="xl">Your journey to a new home starts here.</Text>
+        </VStack>
+      </Box>
       <VStack spacing={4} width="full" maxW="md">
         <Heading as="h1" size="xl" textAlign="center">
           Skippatopplån
