@@ -22,7 +22,7 @@ const Index = () => {
 
   return (
     <Container centerContent maxW="container.md" height="100vh" display="flex" flexDirection="column" justifyContent="center" alignItems="center">
-      <Box width="full" height="300px" bgImage="url('/images/couple-house.jpg')" bgPosition="center" bgRepeat="no-repeat" bgSize="cover">
+      <Box width="full" height="300px" bgImage="url('https://images.unsplash.com/photo-1593696140826-c58b021acf8b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80')" bgPosition="center" bgRepeat="no-repeat" bgSize="cover">
         <VStack spacing={4} p={4} color="white">
           <Heading as="h1" size="2xl">
             Welcome to Skippatopplån
